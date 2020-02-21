@@ -20,14 +20,14 @@
     <img src="./images/logo.svg" alt="logo" class="logo">
    
    <div class="header-links">
-    <a href="#">Features</a>
-    <a href="#">Team</a>
-    <a href="#">Sign In</a>
+    <a href="#features">Features</a>
+    <a href="#team">Team</a>
+    <a href="#sign-in">Sign In</a>
    </div>
   </header>
   <div class="top">
-    <img src="./images/illustration-intro.png" alt="" class="hero">
-    <h1 class="yourFiles">
+    <img src="./images/illustration-intro.png" alt="intro" class="hero" id="features">
+    <h1 class="yourFiles"  >
       All your files in one secure location, accessible anywhere.
     </h1>
     <p>
@@ -45,7 +45,7 @@
     <div class="featureBox">
       <div class="box" id="box1">
         <img src="./images/icon-access-anywhere.svg" alt="access file anywhere" class="featureIcon">
-       <h3>
+       <h3 id="box1-h3">
         Access your files, anywhere
        </h3>
        <p>
@@ -94,7 +94,9 @@
 <div class="bottom">
 
   <div class="bottomCall">
-    <img src="./images/illustration-stay-productive.png" alt="stay productive" class="stayProductive">
+    <img src="./images/illustration-stay-productive.png" alt="stay productive" class="stayProductive" id="team">
+   
+   <div class="wordBox">
     <h1>
       Stay productive, wherever you are
     </h1>
@@ -106,13 +108,16 @@
       Securely share files and folders with friends, family and colleagues for live collaboration. No email 
   attachments required.
     </p>
-   <a href="#">See how Fylo works</a>
+   <a href="#">See how Fylo works</a> <img src="./images/icon-arrow.svg" alt="arrow" class="arrow">
+   </div>
+   
+   
   </div>
 
-
+  <img src="./images/bg-quotes.png" alt="quotes" class="quotes">
   <div class="testimonials">
-    <img src="./images/bg-quotes.png" alt="quotes" class="quotes">
-    <div class="testBox1">
+    
+    <div class="testBox" id="testBox1">
       <p>
         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
@@ -125,7 +130,7 @@
         Founder & CEO, Huddle
       </span>
     </div>
-    <div class="testBox2">
+    <div class="testBox" id="testBox2">
       <p>
         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
@@ -138,7 +143,7 @@
         Founder & CEO, Huddle
       </span>
     </div>
-    <div class="testBox3">
+    <div class="testBox" id="testBox3">
       <p>
         Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
@@ -156,7 +161,7 @@
 </div>
 
 
-<div class="inset">
+<div class="inset" id="sign-in">
   <h1>
     Get early access today
   </h1>

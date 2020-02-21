@@ -1,2 +1,229 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans: 400, 700|Raleway: 400, 700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans: 400,700|Raleway: 400,700&display=swap");
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans";
+  background-color: #1c2431;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+}
+
+header img {
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+}
+
+header .header-links {
+  float: right;
+  margin-top: 5.5rem;
+  margin-right: 3.5rem;
+}
+
+header .header-links a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1.5rem;
+  color: white;
+}
+
+.top .hero {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.top h1 {
+  color: white;
+  width: 725px;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 3rem;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin-bottom: 2rem;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 626px;
+  margin: 0 auto;
+}
+
+.top .button {
+  color: white;
+  background-color: #339ecc;
+  border: none;
+  border-radius: 25px;
+  width: 279px;
+  margin-top: 2rem;
+  font-family: "Raleway";
+  font-size: 1rem;
+  height: 50px;
+  margin-left: 40%;
+}
+
+.middle {
+  margin-top: 15%;
+  background-color: #181f2a;
+}
+
+.middle .desktop {
+  position: relative;
+  margin-top: -35%;
+  z-index: -1;
+}
+
+.middle img.mobile {
+  display: none;
+}
+
+.middle .featureBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.middle .box {
+  padding-top: 2rem;
+  width: 450px;
+}
+
+.middle .box h3 {
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.middle .box p {
+  width: 375px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.middle .box img {
+  margin-left: 11rem;
+  margin-top: .5rem;
+}
+
+.middle #box1-h3 {
+  margin-top: 2rem;
+}
+
+.bottom {
+  height: 1200px;
+  background-color: #181f2a;
+}
+
+.bottom .bottomCall {
+  margin-bottom: 8rem;
+}
+
+.bottom .bottomCall img {
+  margin-top: 5.75rem;
+  margin-left: 6.75rem;
+}
+
+.bottom .bottomCall .wordBox {
+  margin-right: 4rem;
+  margin-top: 12rem;
+  float: right;
+  width: 600px;
+}
+
+.bottom .bottomCall .wordBox h1 {
+  font-family: "Raleway";
+  color: white;
+  width: 365px;
+  font-size: 2.5em;
+}
+
+.bottom .bottomCall .wordBox p {
+  color: white;
+  width: 550px;
+  font-size: 1rem;
+}
+
+.bottom .bottomCall .wordBox a {
+  color: #65e2d9;
+  text-decoration: none;
+  border-bottom: 1px solid #65e2d9;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.bottom .bottomCall .wordBox img {
+  margin-left: -1rem;
+  margin-top: 1rem;
+  margin-bottom: -.25rem;
+}
+
+.bottom img.quotes {
+  z-index: -1;
+  margin-bottom: -1rem;
+  margin-left: 3.5rem;
+}
+
+.bottom .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottom .testimonials .testBox {
+  width: 400px;
+  height: auto;
+  background-color: #202a3c;
+  color: white;
+  padding-bottom: 2rem;
+  -webkit-box-shadow: 8px 8px 8px #1c2431;
+          box-shadow: 8px 8px 8px #1c2431;
+}
+
+.bottom .testimonials .testBox img {
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.bottom .testimonials .testBox p {
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.bottom .testimonials .testBox span.name {
+  font-size: .75rem;
+  margin-left: .25rem;
+  position: absolute;
+  margin-top: -.25rem;
+}
+
+.bottom .testimonials .testBox span.title {
+  font-size: .5rem;
+  margin-left: .25rem;
+}
 /*# sourceMappingURL=style.css.map */

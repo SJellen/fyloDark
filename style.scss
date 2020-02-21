@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans: 400, 700|Raleway: 400, 700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans: 400,700|Raleway: 400,700&display=swap');
 
 $mobile: 375px;
 $desktop: 1440px;
@@ -12,3 +12,211 @@ $cyan: hsl(176, 68%, 64%);
 $blue: hsl(198, 60%, 50%);
 $white: hsl(0, 0%, 100%);
 
+
+body {
+    max-width: $desktop;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', ;
+    background-color: $darkBlue;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+header {
+    img {
+        margin-top: 4.5rem;
+        margin-left: 5rem;
+    }
+    .header-links {
+        float: right;
+        margin-top: 5.5rem;
+        margin-right: 3.5rem;
+        a {
+            font-size: 1rem;
+            text-decoration: none;
+            padding: 1.5rem;
+            color: $white
+        }
+    }
+}
+
+.top {
+    
+    .hero {
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+    h1 {
+        color: $white;
+        width: 725px;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 3rem;
+        font-weight: 700;
+        font-family: 'Raleway', ;
+        margin-bottom: 2rem;
+    }
+    p {
+        color: $white;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 626px;
+        margin: 0 auto;
+        
+    }
+    .button {
+        color: $white;
+        background-color: $blue;
+        border: none;
+        border-radius: 25px;
+        width: 279px;
+        margin-top: 2rem;
+        font-family: 'Raleway', ;
+        font-size: 1rem;
+        height: 50px;
+        margin-left: 40%;
+    }
+}
+
+.middle {
+    margin-top: 15%;
+    background-color: $darkBlueBackground;
+    .desktop {
+        
+        position: relative;
+        margin-top: -35%;
+        z-index: -1;
+    }
+    img.mobile {
+        display: none;
+    }
+
+    .featureBox {
+       display: flex;
+       width: 1000px;
+       height: 600px;
+       flex-direction: row;
+       
+       flex-wrap: wrap;
+       margin: 0 auto;
+        
+        
+    }
+    
+    .box {
+        padding-top: 2rem;
+        width: 450px;
+        h3 {
+            font-size: 1.25rem;;
+            color: $white;
+            text-align: center;
+            font-weight: 700;
+            font-family: 'Raleway', ;
+        }
+        p {
+            width: 375px;
+            color: $white;
+            text-align: center;
+            margin: 0 auto;
+        }
+        img {
+            margin-left: 11rem;
+            margin-top: .5rem;
+        }
+    }
+   #box1-h3 {
+       margin-top: 2rem;
+   }
+}
+
+.bottom {
+    height: 1200px;
+    background-color: $darkBlueBackground;
+    .bottomCall {
+        margin-bottom: 8rem;
+        img {
+            margin-top: 5.75rem;
+            margin-left: 6.75rem;
+        }
+        .wordBox {
+            margin-right: 4rem;
+            margin-top: 12rem;
+            float: right;
+            width: 600px;
+            h1 {
+                font-family: 'Raleway', ;
+                color: $white;
+                width: 365px;
+                font-size: 2.5em;
+            }
+            p {
+                color: $white;
+                width: 550px;
+                font-size: 1rem;   
+            }
+            a  {
+                color: $cyan;
+                text-decoration: none;
+                border-bottom: 1px solid $cyan;
+                padding-right: 20px;
+                padding-bottom: 5px;
+            }
+            img {
+                margin-left: -1rem;
+                margin-top: 1rem;
+                margin-bottom: -.25rem;
+            }
+        }
+    }
+    img.quotes {
+        z-index: -1;
+        margin-bottom: -1rem;
+        margin-left: 3.5rem;
+       
+
+       }
+    .testimonials {
+       
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 90%;
+       
+       margin: 0 auto;
+       
+       .testBox {
+           width: 400px;
+           height: auto;
+           background-color: $darkBlueTestimonial;
+           color: $white;
+           padding-bottom: 2rem;
+           box-shadow: 8px 8px 8px $darkBlue;
+           img {
+               width: 25px;
+               border-radius: 50%;
+               margin-left: 2rem;
+           }
+           p {
+               width: 300px;
+               margin: 2rem auto;
+           }
+           span.name {
+            font-size: .75rem;
+            margin-left: .25rem;
+            position: absolute;
+            margin-top: -.25rem;
+            
+            
+            
+           }
+           span.title {
+               font-size: .5rem;
+               margin-left: .25rem;
+               
+           }
+           
+       }
+    }
+}
