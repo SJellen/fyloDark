@@ -72,6 +72,7 @@ header .header-links a {
 }
 
 .middle .desktop {
+  width: 100%;
   position: relative;
   margin-top: -35%;
   z-index: -1;
@@ -308,25 +309,21 @@ footer .contactBox {
   margin-top: 3rem;
   width: 90%;
   margin-left: 5rem;
-  border: 1px solid red;
 }
 
 footer .contactBox .locationBox {
-  border: 1px solid red;
   float: left;
   width: 400px;
 }
 
 footer .contactBox .locationBox span {
   width: 300px;
-  border: 1px solid red;
   display: block;
   margin-left: 2.5rem;
   margin-top: -1.5rem;
 }
 
 footer .contactBox .phoneBox {
-  border: 1px solid red;
   width: 300px;
   margin-left: 20rem;
 }
@@ -337,7 +334,6 @@ footer .contactBox .phoneBox span {
 
 footer .contactBox .emailBox {
   padding-top: .75rem;
-  border: 1px solid red;
   width: 300px;
   margin-left: 20rem;
 }
@@ -347,7 +343,6 @@ footer .contactBox .emailBox span {
 }
 
 footer .contactBox .link1 {
-  border: 1px solid red;
   width: 80px;
   margin-left: 46rem;
   margin-top: -3.75rem;
@@ -362,7 +357,6 @@ footer .contactBox .link1 a {
 }
 
 footer .contactBox .link2 {
-  border: 1px solid red;
   width: 80px;
   margin-left: 58rem;
   margin-top: -8.5rem;
@@ -393,7 +387,9 @@ footer .contactBox #social i {
 }
 
 .attribution {
+  float: right;
   height: 0px;
+  margin-right: 2rem;
   margin-top: -2rem;
   color: white;
 }
@@ -405,5 +401,149 @@ footer .contactBox #social i {
 
 .attribution a:link {
   color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+  .bottom img#team.stayProductive {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .top img#features.hero {
+    width: 500px;
+    height: auto;
+    margin-left: 25rem;
+  }
+  .middle .featureBox {
+    margin: 0 auto;
+  }
+  .bottom .testimonials .testBox {
+    width: 280px;
+    height: 160px;
+  }
+  .bottom .testimonials .testBox p {
+    font-size: .75rem;
+    width: 200px;
+  }
+  .inset input::-webkit-input-placeholder {
+    padding-left: 3rem;
+  }
+  .inset input:-ms-input-placeholder {
+    padding-left: 3rem;
+  }
+  .inset input::-ms-input-placeholder {
+    padding-left: 3rem;
+  }
+  .inset input::placeholder {
+    padding-left: 3rem;
+  }
+  footer .contactBox .link1 {
+    margin-left: 40rem;
+  }
+  footer .contactBox .link2 {
+    margin-left: 50rem;
+  }
+  footer .contactBox #social {
+    margin-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  .top h1 {
+    margin-left: 20%;
+    font-size: 2rem;
+  }
+  .top img#features.hero {
+    width: 400px;
+    height: auto;
+    margin-left: 25rem;
+  }
+  .bottom img#team.stayProductive {
+    width: 400px;
+    height: auto;
+    margin-left: 5rem;
+  }
+  .bottom .wordBox {
+    max-width: 400px;
+    margin-right: 2rem;
+  }
+  .bottom .wordBox h1 {
+    margin-top: -4rem;
+  }
+  .bottom .wordBox p {
+    max-width: 400px;
+  }
+  footer .contactBox #social {
+    float: left;
+    margin-top: -1rem;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .top h1 {
+    margin-left: 15%;
+  }
+  .top img#features.hero {
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+  }
+  .middle .featureBox {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 30%;
+  }
+  .bottom {
+    height: 2000px;
+  }
+  .bottom img#team.stayProductive {
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+  }
+  .bottom .bottomCall .wordBox {
+    max-width: 700px;
+    margin-right: 5rem;
+  }
+  .bottom .bottomCall .wordBox h1 {
+    width: 80%;
+    text-align: center;
+  }
+  .bottom .bottomCall .wordBox p {
+    max-width: 500px;
+  }
+  .bottom img.quotes {
+    margin-left: 20rem;
+    width: 25px;
+    margin-top: 10rem;
+  }
+  .bottom .testimonials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .bottom .testimonials .testBox {
+    margin: 2rem auto;
+    height: auto;
+  }
+  .bottom .testimonials .testBox p {
+    width: 90%;
+  }
+  footer .contactBox #social {
+    float: left;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
