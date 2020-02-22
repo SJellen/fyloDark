@@ -98,9 +98,9 @@ header {
        width: 1000px;
        height: 600px;
        flex-direction: row;
-       
+       margin: 0 18rem;
        flex-wrap: wrap;
-       margin: 0 auto;
+       
         
         
     }
@@ -132,7 +132,7 @@ header {
 }
 
 .bottom {
-    height: 1200px;
+    height: 1280px;
     background-color: $darkBlueBackground;
     .bottomCall {
         margin-bottom: 8rem;
@@ -220,3 +220,162 @@ header {
        }
     }
 }
+
+.inset {
+    z-index: 9;
+    position: relative;
+    width: 865px;
+    background-color: $darkBlue; 
+    box-shadow: 8px 8px 8px hsla(0,0,0, .25);
+    margin-top: -10rem;
+    height: 275px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $white;
+    h1 {
+      padding-top: 3rem;
+      font-family: 'Raleway', ; 
+      text-align: center;
+      font-size: 2rem;
+    }
+    p {
+        text-align: center;
+        width: 630px;
+        margin: 0 auto;
+    }
+    input {
+        width: 480px;
+        height: 45px;
+        border-radius: 25px;
+        margin-top: 2.75rem;
+        margin-left: 5rem;
+        border: none;
+        
+    }
+    input::placeholder {
+        padding-left: 2rem;
+    }
+    .buttonFree {
+        color: $white;
+        background-color: $blue;
+        border: none;
+        border-radius: 25px;
+        width: 200px;
+        margin-left: 2rem;
+        font-family: 'Raleway', ;
+        font-size: .90rem;
+        height: 50px;
+       
+    }
+ }
+
+
+ footer {
+     color: $white;
+     background-color: $darkBlueFooter;
+     height: 515px;
+     margin-top: -8.5rem;
+     .logo {
+        margin-top: 14rem;
+        margin-left: 7.5rem;
+     }
+     .contactBox {
+         margin-top: 3rem;
+         width: 90%;
+         
+         margin-left: 5rem;
+         border: 1px solid red;
+         .locationBox {
+            border: 1px solid red;
+            float: left;
+            width: 400px;
+            span {
+                width: 300px;
+                border: 1px solid red;
+                display: block;
+                margin-left: 2.5rem;
+                margin-top: -1.5rem;
+            }
+         }
+         .phoneBox {
+            border: 1px solid red;
+            width: 300px;
+            margin-left: 20rem;
+            span {
+                margin-left: 1.5rem;
+            }
+         }
+         .emailBox {
+            padding-top: .75rem;
+            border: 1px solid red;
+            width: 300px;
+            margin-left: 20rem;
+            span {
+                margin-left: 1.5rem;
+            }
+         }
+         .link1 {
+            border: 1px solid red;
+            width: 80px;
+            margin-left: 46rem;
+            margin-top: -3.75rem;
+            
+            a {
+                display: block;
+                font-size: 1rem;
+                text-decoration: none;
+                color: $white;
+                padding-bottom: .75rem;
+                
+            }
+         }
+         .link2 {
+            border: 1px solid red;
+            width: 80px;
+            margin-left: 58rem;
+           margin-top: -8.5rem;
+            
+            a {
+                display: block;
+                font-size: 1rem;
+                text-decoration: none;
+                color: $white;
+                padding-bottom: .75rem;
+                
+            }
+         }
+        
+        
+        #social {
+            width: 200px;
+            float: right;
+            margin-top: -7.75rem;
+         }
+         #social i {
+             text-align: center;
+             border: 1px solid white;
+             width: 30px;
+             height: 30px;
+             border-radius: 100%;
+             margin-right: 17px;
+             line-height: 2;
+             
+         }
+
+         
+     }
+
+ }
+ .attribution {
+     height: 0px;
+     margin-top: -2rem;
+     color: $white;
+     a {
+         color: $white;
+         text-decoration: none;
+     }
+     a:link {
+         color: $white;
+     }
+ }
