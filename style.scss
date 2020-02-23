@@ -32,6 +32,8 @@ header {
         float: right;
         margin-top: 5.5rem;
         margin-right: 3.5rem;
+        font-family: 'Raleway', ;
+        font-weight: normal;
         a {
             font-size: 1rem;
             text-decoration: none;
@@ -490,9 +492,12 @@ header {
 }
 
 @media only screen and (max-width: 975px) {
+    header {
+        margin-top: -2rem;
+    }
     .top {
         h1 {
-           margin-left: 15%; 
+           margin-left: 12%; 
         }
         img#features.hero {
             width: 400px;
@@ -504,7 +509,7 @@ header {
 
     .middle {
         .featureBox {
-            
+            width: 50%;
             height: auto;
             flex-direction: column;
             margin-left: 30%;
@@ -553,14 +558,336 @@ header {
         }
     }
 
+    .inset  {
+        display: flex;
+        flex-direction: column;
+        height: 360px;
+        width: 90%;
+        input {
+            
+            margin: 2rem auto;
+            width: 275px;
+        }
+        .buttonFree {
+            margin: 0 auto;
+            width: 275px;
+        }
+    }
+
     footer {
+        margin-top: -15rem;
+        height: 1000px;
+        .logo {
+            margin-left: 10%;
+            margin-top: 20rem;
+            margin-bottom: 2rem;;
+        }
         .contactBox {
-            #social {
+            width: 80%;
+            height: auto;
+            margin-top: 18rem;
+
+            
+            .phoneBox {
+                margin-left: 65%;
+                margin-top: -15rem;
+            }
+            .emailBox {
+                margin-left: 65%;
+            }
+            .link1 {
+                margin-left: 10%;
+                margin-top: 8rem;
                 
-                float: left;
-                margin-top: -1rem;
-                margin-left: -1rem;
+            }
+            .link2 {
+                margin-left: 60%;
+                margin-top: -8.5rem;
+                
+            }
+            #social {
+                margin-top: 10rem;
+                margin-left: 20rem;
             }
         }
     }
+
+    .attribution {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 830px) {
+   
+    .top {
+        h1 {
+            width: 90%;
+            margin: 2rem auto;
+        }
+        .button {
+            margin-left: 35%;
+        }
+    }
+    .middle {
+        .featureBox {
+            width: 50%;
+        }
+    }
+    .bottom {
+        .bottomCall {
+            .wordBox {
+              
+                
+                h1 {
+                    margin-left: 2rem;
+                }
+                p {
+                    margin-left: 2rem;
+                }
+                a {
+                    margin-left: 2rem;
+                }
+            }
+
+        }
+        img.quotes {
+            
+            margin-left: 17rem;
+            margin-bottom: -2.5rem;
+            
+        }
+    }
+    .inset {
+        h1 {
+            margin-top: -1rem;
+        }
+        p {
+            width: 80%;
+        }
+    }
+    footer {
+        .contactBox {
+            #social {
+               margin-left: 35%;
+            }
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    header {
+        .logo {
+            width: 82px;
+            margin-left: 2rem;
+        }
+        .header-links {
+            margin-top: 4.5rem;
+            margin-right: 5%;
+        }
+    }
+
+    .top {
+        .button {
+            margin-left: 30%;
+        }
+        .hero {
+            max-width: 300px;
+            height: auto;
+            margin-top: 3rem;
+        }
+    }
+
+    .middle {
+        .featureBox {
+          justify-content: center;
+          img {
+              margin-left: 25%;
+          }
+          h3 {
+           margin-left: -25%;
+          }
+          p {
+              margin-left: -5%;
+          }
+        }
+    }
+
+    .bottom {
+        img {
+            max-width: 300px;
+            height: auto;
+        }
+        img.quotes {
+            margin-left: 10rem;
+        }
+        .bottomCall {
+            .wordBox {
+                margin: 8rem auto 2rem auto;
+            }
+        }
+    }
+
+    footer {
+        height: 1300px;
+        margin-top: -12.5rem;
+        img.logo {
+            margin-left: 35%;
+        }
+        .contactBox {
+            display: flex;
+            flex-direction: column;
+            .locationBox {
+                margin: -17rem auto 0rem 5rem;
+            }
+            .phoneBox {
+                margin: 2rem auto 0rem 5rem;
+               
+            }
+            .emailBox {
+                margin: 2rem auto 0rem 5rem;
+            }
+            
+            .link2 {
+                
+                margin: 3rem auto 0rem 3.5rem;
+
+            }
+           
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 625px) {
+    .header {
+        img.logo {
+            margin-left: 1.25rem;
+            margin-top: 3.5rem;
+        }
+        .header-links {
+            margin-top: 4rem;
+            margin-right: .25rem;
+        }
+    }
+    .top {
+        h1 {
+            max-width: 300px;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            
+        }
+        p {
+            margin-top: -1rem;;
+            max-width: 340px;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+    .middle {
+        .featureBox {
+            .box {
+               p {
+                max-width: 300px;
+                margin-left: .5rem;
+               }
+            }
+        }
+    }
+    .bottom {
+        height: 1850px;
+        .bottomCall {
+            .wordBox {
+                h1 {
+                    font-size: 1.25rem; 
+                    margin-left: 2.25rem; 
+                }
+                p {
+                    font-size: 1rem;
+                    max-width: 370px;
+                    margin: 0 auto;
+                }
+                a {
+                    margin-left: 20%;
+                }
+            }
+        }
+    }
+    .inset {
+        h1 {
+            font-size: 1.5rem;
+        }
+        p {
+            max-width: 80%;
+            
+        }
+    }
+    footer {
+        .contactBox {
+            margin-left: 0rem;
+            .locationBox {
+                margin-left: 3.5rem;
+            }
+            .phoneBox {
+                margin-left: 3.5rem;
+            }
+            .emailBox {
+                margin-left: 3.5rem;
+            }
+            .link2 {
+                margin-left: 3rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    
+
+    .top {
+        
+        img#features.hero {
+            margin-left: 20%;
+        }
+        .button {
+            margin-left: 22.5%;
+        }
+    }
+    .middle {
+        
+        .featureBox {
+           margin-left: 15%;
+        }
+    }
+    .bottom {
+    
+        .bottomCall {
+            img#team.stayProductive {
+                margin-left: 20%;
+            }
+            .wordBox {
+                
+                max-width: 90%;
+            }
+        }
+        img.quotes {
+            margin-left: 22%;
+        }
+    }
+
+    footer {
+        
+        .contactBox {
+            .link1 {
+                margin-left: 12%;
+            }
+        }
+    }
+
+
 }
