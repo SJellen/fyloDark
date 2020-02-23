@@ -57,7 +57,8 @@ header .header-links a {
 
 .top .button {
   color: white;
-  background-color: #339ecc;
+  background: -webkit-gradient(linear, right top, left top, from(#339ecc), to(#65e2d9));
+  background: linear-gradient(to left, #339ecc, #65e2d9);
   border: none;
   border-radius: 25px;
   width: 279px;
@@ -285,7 +286,8 @@ header .header-links a {
 
 .inset .buttonFree {
   color: white;
-  background-color: #339ecc;
+  background: -webkit-gradient(linear, right top, left top, from(#339ecc), to(#65e2d9));
+  background: linear-gradient(to left, #339ecc, #65e2d9);
   border: none;
   border-radius: 25px;
   width: 200px;

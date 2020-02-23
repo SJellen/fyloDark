@@ -70,7 +70,7 @@ header {
     }
     .button {
         color: $white;
-        background-color: $blue;
+        background: linear-gradient(to left, $blue, $cyan);
         border: none;
         border-radius: 25px;
         width: 279px;
@@ -260,7 +260,7 @@ header {
     }
     .buttonFree {
         color: $white;
-        background-color: $blue;
+        background: linear-gradient(to left, $blue, $cyan);
         border: none;
         border-radius: 25px;
         width: 200px;
