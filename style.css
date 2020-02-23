@@ -773,6 +773,9 @@ footer .contactBox #social i {
 }
 
 @media only screen and (max-width: 505px) {
+  body {
+    width: 100%;
+  }
   .top img#features.hero {
     margin-left: 20%;
   }
@@ -793,6 +796,92 @@ footer .contactBox #social i {
   }
   footer .contactBox .link1 {
     margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  body {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+  .header .header-links {
+    font-size: .5rem;
+  }
+  .header .header-links a {
+    padding: 0 5px 0 5px;
+  }
+  .top img#features.hero {
+    margin-left: 10%;
+  }
+  .top h1 {
+    margin-left: 10%;
+  }
+  .top p {
+    margin-left: 5%;
+  }
+  .top .button {
+    margin-left: 15%;
+  }
+  .middle {
+    margin-top: 10rem;
+    width: 375px;
+  }
+  .middle .desktop {
+    display: none;
+  }
+  .middle img.mobile {
+    margin-top: -34%;
+    display: block;
+    z-index: -1;
+    position: absolute;
+  }
+  .middle .featureBox {
+    padding-top: 400px;
+    margin-top: -25rem;
+  }
+  .middle .featureBox .box {
+    margin-left: -10%;
+  }
+  .bottom {
+    width: 375px;
+  }
+  .bottom .bottomCall img#team.stayProductive {
+    margin-left: 10%;
+  }
+  .bottom .bottomCall .wordBox h1 {
+    width: 95%;
+    font-size: 1rem;
+    margin-left: -1.5rem;
+  }
+  .bottom .bottomCall .wordBox p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: .9rem;
+  }
+  .bottom .bottomCall .wordBox a {
+    margin-left: .5rem;
+  }
+  .bottom img.quotes {
+    margin-left: 3rem;
+  }
+  footer {
+    height: auto;
+    width: 375px;
+  }
+  footer img.logo {
+    margin-left: 3rem;
+  }
+  footer .contactBox .locationBox span {
+    width: 60%;
+  }
+  footer .contactBox .link2 {
+    margin-left: 2rem;
+  }
+  footer .contactBox #social {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

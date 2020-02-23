@@ -847,7 +847,9 @@ header {
 }
 
 @media only screen and (max-width: 505px) {
-    
+    body {
+        width: 100%;
+    }
 
     .top {
         
@@ -889,5 +891,115 @@ header {
         }
     }
 
+
+}
+
+
+
+@media only screen and (max-width: 415px) {
+    body {
+        width: 100%;
+        
+        
+    }
+    .header {
+        width: 100%;
+        .header-links {
+            font-size: .5rem;
+            a {
+                padding: 0 5px 0 5px;
+                
+            }
+        }
+    }
+    .top {
+        img#features.hero {
+            margin-left: 10%;
+        }
+        h1 {
+            margin-left: 10%;
+            
+        }
+        p {
+            margin-left: 5%;
+            
+           
+        }
+        .button {
+            margin-left: 15%;
+
+        }
+    }
+    .middle {
+        margin-top: 10rem;
+        width: $mobile;
+        .desktop {
+            display: none;
+        }
+        img.mobile {
+        margin-top: -34%;
+        display: block;
+        z-index: -1;
+        position: absolute;    
+        }
+        .featureBox {
+            padding-top: 400px;
+            margin-top: -25rem;
+            .box {
+                margin-left: -10%;
+            } 
+        }
+    }
+
+    .bottom {
+        width: $mobile;
+        .bottomCall {
+            img#team.stayProductive {
+                margin-left: 10%;
+            }
+          .wordBox {
+            h1 {
+                width: 95%;
+                font-size: 1rem;
+                margin-left: -1.5rem;
+            }
+            p {
+                width: 95%;
+                margin: 0 auto;
+                font-size: .9rem;
+            }
+            a {
+                margin-left: .5rem;
+            }
+          }
+        }
+        img.quotes {
+            margin-left: 3rem;
+        }
+    }
+
+    
+
+    footer {
+        height: auto;
+        width: $mobile;
+        img.logo {
+            margin-left: 3rem;
+        }
+        .contactBox {
+            .locationBox {
+                span {
+                    width: 60%;
+                }
+            }
+            .link2 {
+                margin-left: 2rem;
+            }
+            #social {
+                margin-top: 4rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
 
 }
